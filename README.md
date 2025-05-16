@@ -1,24 +1,48 @@
-# SAFE Bluetooth Attendance – Field Evaluation
+# 📶 SAFE Bluetooth Attendance – Field Evaluation
 
-This repository contains the report and supporting material for our BTP II project under the course **CS 496** during the **Spring semester(2024–25)** at IIT Bombay.
+This repository contains the final report and supporting material for our **BTP II project** conducted under the course **CS 496** in the **Spring Semester (2024–25)** at **IIT Bombay**.
 
-## 👥Contributors
-- **Soupati Sri Nithya** – 210050152  
-- **Palle Bhavana** – 210050111  
-- **Guide**: Prof. Bhaskaran Raman  
-  Department of Computer Science and Engineering, IIT Bombay
+---
 
-## 📝Project Description
-This project was taken under the **SAFE – Field Evaluation of Bluetooth Attendance** BTP II
+## 👥 Contributors
 
-### 📌Background
-The SAFE system has previously used Wi-Fi-based scanning to verify classroom presence for attendance and exams. However, Wi-Fi signals can leak beyond classroom boundaries, enabling proxies. A prior R&D project by Manish Kumar and Omkar Kadam implemented Bluetooth-based attendance, which needed further testing and integration.
+- 🧑‍💻 **Soupati Sri Nithya** – 210050152  
+- 👩‍💻 **Palle Bhavana** – 210050111  
+- 👨‍🏫 **Guide:** Prof. Bhaskaran Raman  
+  *Department of Computer Science and Engineering, IIT Bombay*
 
-### 🛠️Work Summary
-- Stress tested and debugged the existing Bluetooth attendance code.
-- Made necessary **UI modifications** and backend updates on both **Android and server (Django)** sides.
-- Conducted **real classroom field evaluations**, identified gaps, and refined the system accordingly.
-- Repeated field trials after improvements and documented the entire process in detail in the report.
+---
 
-## 📄Report
-See [`Report.pdf`](./SoupatiSriNithya_PalleBhavana_safe_bluetooth_attendance.pdf) for the full technical documentation of our work.
+## 📝 Project Description
+
+This BTP II was conducted as part of the **SAFE – Field Evaluation of Bluetooth Attendance** initiative.
+
+### 📌 Background
+
+The **SAFE** system was initially developed for Wi-Fi-based presence detection in classrooms for attendance and exams. However, Wi-Fi signal leakage beyond classroom walls allowed for possible proxies.
+
+A prior R&D effort by **Manish Kumar** and **Omkar Kadam** introduced a **Bluetooth-based attendance** approach, offering better range control. Our project aimed to evaluate and refine this Bluetooth-based solution through real-world deployments.
+
+---
+
+## 🛠️ Work Summary
+
+- ✅ **Stress-tested and debugged** the existing Bluetooth attendance implementation.
+- 🎨 Made **UI improvements** and critical backend changes across both:
+  - **Android app** (Java/Kotlin)
+  - **Django-based server**
+- 🏫 Conducted multiple **real classroom field trials** to validate Bluetooth effectiveness.
+- 🔁 Iteratively **refined the system** based on trial results.
+- 🧾 Compiled a detailed documentation of the system architecture, bugs, patches, and outcomes.
+
+> 📱 Try the SAFE App:  
+> [SAFE v2 on Google Play](https://play.google.com/store/apps/details?id=com.iitb.cse.arkenstone.safe_v2)
+
+---
+
+## 📄 Final Report
+
+📘 Please see the full technical documentation in [`SoupatiSriNithya_PalleBhavana_safe_bluetooth_attendance.pdf`](./SoupatiSriNithya_PalleBhavana_safe_bluetooth_attendance.pdf)
+
+---
+
